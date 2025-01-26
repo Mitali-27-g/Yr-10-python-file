@@ -29,5 +29,6 @@ while a in range (5):
      input()
      print(name2, "score at the end of 5 rounds is", total_score)
      break
-     
-     
+
+print(str(input("Would you like to start another game?"))
+      
