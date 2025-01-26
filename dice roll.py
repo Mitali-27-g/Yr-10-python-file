@@ -7,7 +7,6 @@ def dice():
      return a
 
 dice()
-
 total_score1 = 0
 total_score2 = 0
 
@@ -30,3 +29,5 @@ while a in range (5):
      input()
      print(name2, "score at the end of 5 rounds is", total_score)
      break
+     
+     
