@@ -38,6 +38,8 @@ def main():
         player2_score += play_round(name2)
         print(f"", name2," total score:",player2_score)
 
+        input("Press enter to roll again")
+
     # Check if there's a tie after 5 rounds
     if player1_score > player2_score:
         print("\n",name1," wins!")
