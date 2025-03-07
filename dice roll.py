@@ -65,7 +65,11 @@ def main():
                 break
             else:
                 print("\nIt's a tie in the tiebreaker, rolling again!")
+game = True
 
+while game == True:
+    if __name__ == "__main__":
+        main()
 if __name__ == "__main__":
     main()
 
